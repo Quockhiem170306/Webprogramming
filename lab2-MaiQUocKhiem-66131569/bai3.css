@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    padding: 15px;
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid rgb(79, 8, 221);
+    border-radius: 8px;
+}
+.container h2{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    text-align: center;
+    color: rgb(79, 8, 221);
+}
+p{  margin-bottom: 10px;width: 100%; }
+.label{
+    text-align: right;
+    width: 40px;
+    float: left;
+}
+p input{
+    width: 250px;
+    line-height: 30px;
+    border: 1px solid rgb(79, 8, 221);
+    border-radius: 5px;
+}
+p button{
+    display: inline-block;
+    width: 60px;
+    padding: 5px;
+    margin-left: 6px;
+    color : rgb(193, 25, 25);
+}

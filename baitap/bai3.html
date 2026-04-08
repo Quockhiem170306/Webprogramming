@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href="bai3.css">
+    <title>Lab2-Bai3-Mai_Quoc_Khiem-66131569</title>
+</head>
+<body>
+    <div class="container">
+        <h2>form tính toán </h2>
+        <form id="calcForm">
+            <p>
+                <span class="label">a: </span>
+                <input type="text" class="value" id="a">
+            </p>
+            <p>
+                <span class="label">b: </span>
+                <input type="text" class="value" id="b">
+            </p>
+            <p> 
+                <span class="label">ket qua:</span>
+                <input type="text" class="value" id="gt" readonly>
+            </p>        
+            <p>
+                <button type="button" onclick="tinhTong()">+</button>
+                <button type="button" onclick="tinhHieu()">-</button>
+                <button type="button" onclick="tinhTich()">*</button>
+                <button type="button" onclick="tinhThuong()">/</button>
+                <button type="reset">reset</button>
+            </p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

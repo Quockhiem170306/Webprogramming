@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    --text-color: #000;
+    --blue-color: #044B72;
+    --background-color:#fff;
+    --light-blue-color: #DBE5F0;
+    --height-blue-color: #03334E;
+    --green-color: #08503A;
+}
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.d-flex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.d-flex-column{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.d-grid-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:20px;
+}
+.d-grid-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px;
+}
+.d-grid-4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:20px;
+}
+/* header */
+header{
+    padding: 40px 0 30px 0; 
+}
+header nav a{
+    padding: 0px 15px;
+    font-weight: 600;
+}
+.brand a{
+    color: var(--blue-color);
+    font-weight: 600;
+}
+/* discover section */
+.discover{
+    background:url(images/scandinavian-decal-background.png) ;
+    height: 600px;
+    background-size: 100% 100%;
+    padding: 100px 0;
+}
+.container-right{
+    height: 400;
+    background-color: var(--light-blue-color);
+    border-radius: 10px;
+    padding: 50px;
+}
+h1{
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 600;
+    padding: 10px 0;
+    color: var(--blue-color);
+}
+
+h4{
+ font-size: 1.5rem;
+ line-height: 2rem;
+ font-weight: 500;
+}
+h3{
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 600;
+}
+p{
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+}
+.btn-buy{
+    width: 150px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: var(--blue-color);
+    color: var(--background-color);
+    border: none;
+    margin: 20px 0;
+}
+.icons{
+    padding: 20px 0;
+    background-color: var(--light-blue-color);
+}
+.icon-box{
+    justify-content: start;
+}
+.icon-box-text{
+    margin-left: 20px;
+}
+ .collection{
+    padding: 50px 0;
+    text-align: center;
+ }
+ .collection-box{
+    padding-top: 60px;
+    gap: 40px
+ }
+ icollection-box img{
+    width: 100%;
+ }
+ .img-1{
+    border-top-left-radius: 60px;
+ }
+ .img-3{
+    border-bottom-right-radius: 60px;
+ }
+ .img-2{
+    margin-top: -30px;
+ }
+ /*beautify section*/
+ .beautify{
+    background-color: var(--light-blue-color);
+    padding: 50px 0px;
+ }
+ .beautify-left{
+    padding-right: 60px;
+ }
+ .beautify-right{
+    position: relative;
+    height: 760px;
+ }
+.beautify-right-box{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: var(--green-color);
+    top:30%;
+    right: 50px;
+}
+.beautify-right img{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 500;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 65px;
+}
+footer{
+    background-color: var(--blue-color);
+    color: var(--background-color);
+    padding: 40px 0;
+}
+.footer-right-box img{
+    padding: 0 20px;
+}

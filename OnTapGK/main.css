@@ -1,0 +1,13 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    font-family: "poppins",sans-serif;
+}
+:root{
+    --blue-color:#044B72;
+    --backround-color: #fff;
+    
+}
